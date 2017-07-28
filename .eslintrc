@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb-base",
+  "plugins": ["import"],
+  "rules": {
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+    "comma-dangle": ["error", {"functions": "ignore"}],
+    "react/prefer-stateless-function": "off",
+    "indent": [1, "tab", {"SwitchCase": 1}],
+    "no-tabs": 0,
+    "no-trailing-spaces":"off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-indent-props": "off",
+    "react/jsx-indent": "off",
+    "no-undef": "off"
+  }
+}
